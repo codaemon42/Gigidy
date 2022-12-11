@@ -1,0 +1,35 @@
+{
+  "name": "gigidy",
+  "version": "1.0.0",
+  "description": "gigs solution",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "gigidy",
+    "gig workers",
+    "gigidy backend"
+  ],
+  "author": "naim-ul-hassan",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "@sendgrid/mail": "^7.7.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "http-errors": "^2.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "nanoid": "^4.0.0",
+    "nodemailer": "^6.8.0",
+    "nodemon": "^2.0.20",
+    "pg": "^8.8.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.25.8",
+    "winston": "^3.8.2"
+  }
+}
